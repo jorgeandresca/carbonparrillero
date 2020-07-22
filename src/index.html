@@ -1,0 +1,154 @@
+<html>
+    <head>
+        <title>Carbón Parrillero</title>
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        
+      <link rel="stylesheet" href="styles.css?16">
+    </head>
+    
+    <body>
+      <div id="bg_home" class="img-responsive backgrounds">
+        <div id="home" class="sections">
+          <div class="container-fluid">
+               <div class="row">
+                    <div class="contact_home">   
+                        <label>+56 9 6236 0156</label>
+                        <p><a href="https://www.facebook.com/carbonparrilleros" target="_blank" class="fa fa-facebook"></a></p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 div_img_logo">
+                        <img  id="logo_img" src="images/06.png" class="img-responsive">
+                    </div>  
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 landing-text">
+                        <h1>¿Hagamos un asado?</h1>
+                        <h3>Tenemos todo lo que necesitas 
+                         <p>para hacer los mejores asados</p>
+                        </h3>
+                        <br>
+                    </div>
+                   
+               </div>
+          </div>
+        </div>
+      </div>
+      <div id="bg_products" class="backgrounds">
+          <div id="section_products" class="sections">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 div_product"> 
+                          <div class="div_img_prod">
+                              <a onclick="productOnClick(1)" data-toggle="modal" data-target="#exampleModalCenter">
+                                  <img id="product1_image" src="images/products/desk1.png"  class="img-responsive img_product">
+                              </a>
+                          </div> 
+                        <h2 id="product1_title" onclick="productOnClick(1)">desk1</h2>
+                        <h4 id="product1_description" onclick="productOnClick(1)">Probably some describtions here1</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 div_product"> 
+                        <div class="div_img_prod">
+                            <a onclick="productOnClick(2)" data-toggle="modal" data-target="#exampleModalCenter">
+                                <img id="product2_image" src="images/products/desk2.png"  class="img-responsive img_product">
+                              </a>
+                        </div>
+                        <h2 id="product2_title" onclick="productOnClick(2)">desk2</h2>
+                        <h4 id="product2_description" onclick="productOnClick(2)">Probably some describtions here2</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 div_product"> 
+                        <div class="div_img_prod">  
+                            <a onclick="productOnClick(3)" data-toggle="modal" data-target="#exampleModalCenter">
+                                <img id="product3_image" src="images/products/desk3.png"  class="img-responsive img_product">
+                              </a>
+                        </div>
+                        <h2 id="product3_title" onclick="productOnClick(3)">desk3</h2>
+                        <h4 id="product3_description" onclick="productOnClick(3)">Probably some describtions here3</h4>
+                    </div>
+                </div>
+               <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 div_product"> 
+                        <div class="div_img_prod">   
+                            <a onclick="productOnClick(4)" data-toggle="modal" data-target="#exampleModalCenter">
+                                <img id="product4_image" src="images/products/desk4.png"  class="img-responsive img_product">
+                              </a>
+                        </div>
+                        <h2 id="product4_title" onclick="productOnClick(4)">desk4</h2>
+                        <h4 id="product4_description" onclick="productOnClick(4)">Probably some describtions here4</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 div_product"> 
+                        <div class="div_img_prod">
+                            <a onclick="productOnClick(5)" data-toggle="modal" data-target="#exampleModalCenter">
+                                <img id="product5_image" src="images/products/desk5.png"  class="img-responsive img_product">
+                              </a>
+                        </div>
+                        <h2 id="product5_title" onclick="productOnClick(5)">desk5</h2>
+                        <h4 id="product5_description" onclick="productOnClick(5)">Probably some describtions here5</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 div_product"> 
+                        <div class="div_img_prod">
+                            <a onclick="productOnClick(6)" data-toggle="modal" data-target="#exampleModalCenter">
+                                <img id="product6_image" src="images/products/desk6.png"  class="img-responsive img_product">
+                              </a>
+                        </div>
+                        <h2 id="product6_title" onclick="productOnClick(6)">desk6</h2>
+                        <h4 id="product6_description" onclick="productOnClick(6)">Probably some describtions here6</h4>
+                    </div>
+                </div>
+           </div>
+         </div>
+        </div> 
+            <div id="fixed" class="backgrounds">
+                <br>
+            </div>
+            
+    
+    <div id="bg_footer" class="img-responsive backgrounds">
+        <footer id="section_contact" class="container-fluid text-center sections">       
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3>Contactanos</h3>
+                    <br>
+                    <h4 class="text_footer">Subimos nuevos productos cada semana en Facebook e Instagram, síguenos :) </h4>
+                </div>
+                <div class="col-sm-4">
+                 <br>
+                    <a href="https://wa.me/56962360156" target="_blank" class="fa fa-whatsapp icons">
+                    </a>
+                    <a href="https://www.facebook.com/carbonparrilleros" target="_blank" class="fa fa-facebook icons"></a>
+                    <a href="https://instagram.com/jmcarpin62?igshid=9f7xr3altemt" target="_blank" class="fa fa-instagram icons"></a>
+               </div>
+                <div class="col-sm-4">
+                    <h4 class="text_footer">Caleta Blanca S/N, Pelluhue</h4>
+                    <p><h4 class="text_footer">+56 9 6236 0156</h4>
+                    <p><h4 class="text_footer">jcarrascp@gmail.com</h4>
+                </div>
+            </div>   
+        </footer>
+    </div> 
+    
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title lead" id="ModalProductTitle"></h5>
+                        <label id="modal_product_lbl"></label>
+                    </div>
+                    <div class="modal-body">
+                        <img id="img_modal" src="images/products/desk1.png"  class="img-responsive modal_img_product">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <script src="script.js"></script>
+        
+    </body>
+</html>
