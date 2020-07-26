@@ -1,0 +1,207 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+#home{
+    height: 100vh;
+}
+
+#home:before {
+    content: "";
+    display: table;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 120%;
+    z-index: -1;
+    background: url(images/landscape1.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#bg_products{
+    background: white;
+}
+#bg_footer{
+    background: black;
+}
+.backgrounds{
+    width: 100%;
+}
+
+.div_img_logo {
+    text-align: center;
+}
+#logo_img {
+    margin: 22% auto;
+    width: 350px;
+}
+
+.landing-text {
+    display: table-cell;
+    text-align: center;
+    color: #fbf9fa;
+    padding-top: 30vh;
+}
+.landing-text h1 {
+    font-size: 300%;
+    font-weight: 400;
+}
+
+.padding img {
+    width: 100%;
+}
+#fixed {
+    background: url(images/Burning-Coals.gif) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    background-size: cover;
+}
+footer {
+    padding: 5% 5% 10% 5%;
+    color: #fff;
+}
+.fa {
+    padding: 15px;
+    font-size: 25px;
+    color: #fff;
+}
+.fa:hover {
+    color: #d5d5d5;
+    text-decoration: none;
+}
+.icon {
+     max-width: 200px;
+}
+.sections {
+    width: 100%;
+    margin: auto;
+    
+}
+.modal_img_product {
+    width: 100%;
+}
+
+
+@media (min-width: 1200px) {  /* for big screen */
+
+    .sections {
+        width: 1200px;
+   }
+    #logo_img{
+    width: 450px;
+    }
+}
+
+@media (max-width: 500px) { /* for mobile phone */
+  
+    .fa {
+        font-size: 20px;
+        padding: 10px;
+    }
+   #home{
+        height: 105vh;
+    }
+
+    #fixed {
+        background: url(images/Burning-Coals.gif) no-repeat center center;
+        display: table;
+        height: 60%;
+        background-size: cover;
+    }
+    
+    .landing-text {
+        padding-top: 25vh;
+    }
+    
+    .landing-text h2 {
+        font-size: 300%; 
+        text-align: center;
+        color: #fbf9fa;
+    }
+    
+    .landing-text{
+        margin-top: -200px;
+        margin-bottom: 50px;
+    }
+    
+    #logo_img {
+        width: 80%
+    }
+    
+    #section_products {
+        padding-bottom: 50px;
+    }
+    .div_img_prod {
+        margin: auto !important;
+    }
+    .div_img_logo{
+        margin-top: 20px;
+    }
+    .contact_home {
+        right: 4%;
+        position: absolute;
+    }
+    
+}
+
+
+#section_products {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.div_img_prod {
+    border-radius: 10px;
+    overflow: hidden;
+    width: 18em;
+    margin:0 auto;
+}
+.img_product {
+    width: 18em !important;
+    height: 14em;
+    transition: transform 1s; /* Animation*/
+    cursor: pointer;
+    opacity: 80%;
+    
+} 
+.img_product:hover {
+    transform: scale(1.3);
+    opacity: 100%;
+}
+
+.div_product {
+    margin-top: 4vh; /* This is important 7vh is working well */ 
+    margin-bottom: 4vh; /* This is important 7vh is working well */ 
+}
+
+h2, h4 {
+    color: #323643;
+    text-align: center;
+}
+p {
+    color: #fbf9fa;
+}
+.text_footer {
+    color: #fbf9fa;
+}
+.lead {
+    font-size: 30px;
+    font-weight: 400;
+}
+.icons {
+    font-size: 40px !important;
+}
+.contact_home {
+    float: right;
+    font-size: 20px;
+    color: #fff;
+    text-align: right;
+}
