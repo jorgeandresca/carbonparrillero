@@ -4,20 +4,18 @@ html, body {
 }
 
 
-
-
-#home{
-    height: 100vh;
+#section_home{
+    height: 80vh;
 }
 
-#home:before {
+#section_home:before {
     content: "";
     display: table;
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
-    height: 120%;
+    height: 80%;
     z-index: -1;
     background: url(images/landscape1.png) no-repeat center center;
     -webkit-background-size: cover;
@@ -30,7 +28,7 @@ html, body {
     background: white;
 }
 #bg_footer{
-    background: black;
+    background: #2E3A4D;
 }
 .backgrounds{
     width: 100%;
@@ -58,7 +56,7 @@ html, body {
 .padding img {
     width: 100%;
 }
-#fixed {
+#section_coalbg {
     background: url(images/Burning-Coals.gif) no-repeat center center fixed;
     display: table;
     height: 60%;
@@ -101,16 +99,20 @@ footer {
 }
 
 @media (max-width: 500px) { /* for mobile phone */
-  
+
     .fa {
         font-size: 20px;
         padding: 10px;
     }
-   #home{
-        height: 105vh;
+    #section_home{
+        height: 100vh;
     }
 
-    #fixed {
+    #section_home:before {
+        height: 105%;
+    }
+
+    #section_coalbg {
         background: url(images/Burning-Coals.gif) no-repeat center center;
         display: table;
         height: 60%;
@@ -141,6 +143,7 @@ footer {
     }
     .div_img_prod {
         margin: auto !important;
+        width: 10%;
     }
     .div_img_logo{
         margin-top: 20px;
@@ -148,6 +151,7 @@ footer {
     .contact_home {
         right: 4%;
         position: absolute;
+        color:#2E3A4D;
     }
     
 }
@@ -161,15 +165,16 @@ footer {
 .div_img_prod {
     border-radius: 10px;
     overflow: hidden;
-    width: 18em;
     margin:0 auto;
+    
+    width: 18em;
 }
 .img_product {
-    width: 18em !important;
     height: 14em;
     transition: transform 1s; /* Animation*/
     cursor: pointer;
     opacity: 80%;
+    margin:0 auto;
     
 } 
 .img_product:hover {
@@ -197,11 +202,15 @@ p {
     font-weight: 400;
 }
 .icons {
+    font-size: 40px;
+}
+.contact_home .icons {
     font-size: 40px !important;
+    color: darkblue;
 }
 .contact_home {
     float: right;
-    font-size: 20px;
-    color: #fff;
+    font-size: 25px;
     text-align: right;
+    color:#2E3A4D;
 }
